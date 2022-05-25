@@ -24,7 +24,7 @@ services:
       - trino-network
 
   hive-metastore:
-    image: 'bitsondatadev/hive-metastore:latest'
+    image: 'michieldesmet/hive-metastore:latest'
     hostname: hive-metastore
     ports:
       - '9083:9083' # Metastore Thrift
