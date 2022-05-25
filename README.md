@@ -1,11 +1,15 @@
 # Trino Getting Started
 
-Welcome to the [Trino](https://trino.io/) getting started tutorial repository. 
-This is a home for a set of preconfigured [Docker Compose](https://docs.docker.com/compose/) 
+Welcome to the [Trino](https://trino.io/) getting started tutorial repository - Space Quest League edition! 
+
+We challenge you to the Space Quest League Technical Challenge Event, where for five
+weeks we will dive into some SQL challenges that can be completed using this repository!
+
+Based on @bitsondatadev's legendary [Trino Getting Started Repo](https://github.com/bitsondatadev/trino-getting-started), this is a home for a set of preconfigured [Docker Compose](https://docs.docker.com/compose/) 
 environments that are used to set up simple environments and showcase basic 
 configurations in isolation to get new and existing users started on all the 
 different containers we have, and more importantly learn and have fun with 
-Trino.
+Trino.  I dive into all the challenge specific setup in the README located win the trino-minio folder, so if you have docker installed, pop in there and we can get started. 
 
 If you're entirely new to Trino, you're not alone. Trino is a distributed SQL 
 query engine designed to query large data sets distributed over one or more 
