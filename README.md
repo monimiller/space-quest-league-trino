@@ -19,7 +19,7 @@ to understand what Trino is and is not.  We also have a rascally little bunny
 mascot named 
 [Commander Bun Bun](https://twitter.com/trinodb/status/1357416368543588356) 🐇.
 
-If you want to learn more about Trino, I highly suggest giving a visit to the Trino Getting Started Repo, where you can explore more capabilities outside what we will utilize during these challenges. If you have questions, feel free to ping **Monica Miller** on the [Trino Slack](https://trino.io/slack.html), and I will be happy to answer them!
+If you want to learn more about Trino, I highly suggest giving a visit to the Trino Getting Started Repo, where you can explore more capabilities outside what we will utilize during these challenges. If you have questions about any of these challenges, feel free to ping **Monica Miller** on the [Trino Slack](https://trino.io/slack.html), and I will be happy to answer them!
 
 ## Prerequisites
 
