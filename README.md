@@ -1,4 +1,4 @@
-# Space Quest League Trino 
+# Space Quest League Challenges with Trino 
 
 Welcome to the [Trino](https://trino.io/) getting started tutorial repository - *Space Quest League* edition! 
 
