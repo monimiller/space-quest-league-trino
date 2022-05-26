@@ -6,7 +6,7 @@ We challenge you to the [Space Quest League Technical Challenge Event](https://w
 weeks we will dive into some SQL challenges that can be completed using this repository!
 Completing these challenges will result in fun prizes, as well as bragging rights if you manage to successfully complete the entire series!
 
-Based on @bitsondatadev's legendary [Trino Getting Started Repo](https://github.com/bitsondatadev/trino-getting-started), this is a home for a set of preconfigured [Docker Compose](https://docs.docker.com/compose/) 
+Based on @bitsondatadev's legendary [Trino Getting Started Repo](https://github.com/bitsondatadev/trino-getting-started), this is a home for a set of pre-configured [Docker Compose](https://docs.docker.com/compose/) 
 environments that are used to set up simple environments and showcase basic 
 configurations in isolation to get new and existing users started on all the 
 different containers we have, and more importantly learn and have fun with 
