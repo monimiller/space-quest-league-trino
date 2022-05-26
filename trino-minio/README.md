@@ -20,8 +20,7 @@ command:
 docker-compose up -d
 ```
 
-You should expect to see the following output (you may also have to download
-the Docker images before you see the "done" message):
+You should expect to see a similar output to the one below
 
 ```
 Network trino-minio_trino-network          Created                
@@ -36,11 +35,11 @@ Container trino-minio-hive-metastore-1     Started
 Once this is complete, you can log into the Trino coordinator node. We will
 do this by using the [`exec`](https://docs.docker.com/engine/reference/commandline/exec/)
 command and run the `trino` CLI executable as the command we run on that
-container. Notice the container id is `trino-minio_trino-coordinator_1` so the
+container. Notice the container id is `trino-minio-trino-coordinator-1` so the
 command you will run is:
 
 ```
-docker container exec -it trino-minio_trino-coordinator_1 trino
+docker container exec -it trino-minio-trino-coordinator-1 trino
 ```
 
 When you start this step, you should see the `trino` cursor once the startup
@@ -48,13 +47,7 @@ is complete. It should look like this when it is done:
 ```
 trino>
 ```
- 
-The first step to understanding the Hive metastore's role in the Hive
-connector is to run a CTAS (CREATE TABLE AS) query that pushes data from one of
-the TPC connectors into the hive catalog that points to MinIO. The TPC
-connectors generate data on the fly so that we can run simple tests like this.
-
-First, run a command to show the catalogs to see the `tpch` and `minio` catalogs
+ Run a command to show the catalogs to see the `tpch` and `minio` catalogs
 since these are what we will use in the CTAS query.
 
 ```
@@ -65,15 +58,12 @@ You should see that the minio catalog is registered. This is actually a Hive
 connector configured under the name `minio` to delineate the underlying storage
 we are using.
 
-### Create Bucket in MinIO
+### Create Buckets in MinIO
 
 If we look at the Trino Architecture, we're first going to prep the file storage
-where the actual data will reside. In earlier iterations of big data systems,
-this layer was commonly HDFS or other S3 compatible storage and AWS S3. For our
-example, we're using MinIO which is also S3 compatible. Creating a bucket gives
+where the actual data will reside. Creating a bucket gives
 us a location to write our data to and we can tell Trino where to find it.
 
-![Storage](./assets/storage.png)
 
 Now, open the [MinIO UI](http://localhost:9000) and log in using:
 
