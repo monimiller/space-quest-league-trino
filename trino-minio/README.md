@@ -1,9 +1,9 @@
-# Hive connector over MinIO file storage
+# Space Quest League Challenge Instructions
 
 ## Introduction 
-If you are new to Trino or Presto®, I recommend that you check out the following
-blog to get a sense for the Hive connector architecture. [A gentle
- introduction to the Hive connector](https://trino.io/blog/2020/10/20/intro-to-hive-connector.html)
+For the purpose of these SQL Challenges, we will be uploading some ORC files to minIO and using the Trino CLI to query them.  If you are new to Trino or Presto®, I recommend that you check out the following
+blog to get a sense for the Hive connector architecture [A gentle
+ introduction to the Hive connector](https://trino.io/blog/2020/10/20/intro-to-hive-connector.html) and look deeper at the [trino-getting-started repo](https://github.com/bitsondatadev/trino-getting-started). 
 
 ## Goals
 In this tutorial, you will:
