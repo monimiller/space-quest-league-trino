@@ -139,12 +139,12 @@ Switching back to our MinIO UI, if we click inside of our `quest` bucket, we can
 ![](.assets/../assets/minio_folders.png)
 
 ### Astronauts
-Click into the `astronauts` folder, and upload the ORC files available in the [space-quest-league-trino/astronaut-orc-files/](https://github.com/monimiller/space-quest-league-trino/tree/main/astronaut-orc-files) folder. Your final view should have the four astronauts ORC files successfully uploaded. 
+Click into the `astronauts` folder, and upload the ORC files available in the [space-quest-league-trino/data-files/astronaut-orc-files/](https://github.com/monimiller/space-quest-league-trino/tree/main/data-files/astronaut-orc-files) folder. Your final view should have the four astronauts ORC files successfully uploaded. 
 
 ![](.assets/../assets/astronauts_orc.png)
 
 ### Missions 
-Click into the `missions` folder, and upload the ORC files available in the [space-quest-league-trino/mission-orc-files/](https://github.com/monimiller/space-quest-league-trino/tree/main/mission-orc-files) folder. Your final view should have the four missions ORC files successfully uploaded. 
+Click into the `missions` folder, and upload the ORC files available in the [space-quest-league-trino/data-files/mission-orc-files/](https://github.com/monimiller/space-quest-league-trino/tree/main/data-files/mission-orc-files) folder. Your final view should have the four missions ORC files successfully uploaded. 
 
 ![](.assets/../assets/missions_orc.png)
 
