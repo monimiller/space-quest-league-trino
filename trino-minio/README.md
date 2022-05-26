@@ -5,14 +5,10 @@ For the purpose of these SQL Challenges, we will be uploading some ORC files to 
 blog to get a sense for the Hive connector architecture [A gentle
  introduction to the Hive connector](https://trino.io/blog/2020/10/20/intro-to-hive-connector.html) and look deeper at the [trino-getting-started repo](https://github.com/bitsondatadev/trino-getting-started). 
 
-## Goals
-In this tutorial, you will:
- 1. Learn how to run a CTAS (CREATE TABLE AS) statement in Trino.
- 2. Learn the roles of the Trino runtime, metastore, and storage.
- 3. Dive into the relational database that contains the Hive model and metadata
-    that is stored in the Hive metstore service.
- 
-## Steps
+## Creating Your Tables
+
+In order to complete the challenges, you need the data we are wondering about.  I have shared the code below for creating the schema and the two tables within the Trino CLI, as well as some screenshots from uploading the ORC files to minIO. 
+
 
 ### Running Services
 
@@ -28,12 +24,11 @@ You should expect to see the following output (you may also have to download
 the Docker images before you see the "done" message):
 
 ```
-Creating network "trino-minio_trino-network" with driver "bridge"
-Creating volume "trino-minio_minio-data" with local driver
-Creating minio                          ... done
-Creating trino-minio_trino-coordinator_1 ... done
-Creating trino-minio_mariadb_1           ... done
-Creating trino-minio_hive-metastore_1    ... done
+Network trino-minio_trino-network          Created                
+Container minio                            Started       
+Container trino-minio-trino-coordinator-1  Started 
+Container trino-minio-mariadb-1            Started
+Container trino-minio-hive-metastore-1     Started
 ```
 
 ### Open Trino CLI
