@@ -24,3 +24,6 @@ If you want to learn more about Trino, I highly suggest giving a visit to the Tr
 ## Prerequisites
 
 In order to use this repository you need to have [Docker](https://www.docker.com/why-docker) installed to run your service [containers](https://www.docker.com/why-docker). Check if you have Docker installed by running `docker --version`. If Docker isn't found, please refer to the [install insructions](https://docs.docker.com/engine/install/) and install Docker before trying to run these tutorials. If you're on mac or windows, you will just need to install docker desktop. If you're on a linux distribution, you will just need to install the docker engine.
+
+## Getting Started
+The challenges will be available in the [Technical Achievement Challenges](https://github.com/monimiller/space-quest-league-trino/tree/main/Technical%20Achievement%20Challenges) folder.  Technical Achievement Challenge 1 is out now! Refer to the [space-quest-league-trino/trino-minio/README.md](https://github.com/monimiller/space-quest-league-trino/blob/main/trino-minio/README.md) for setup instructions.  More information about the program is available on the [Space Quest League Website](https://www.starburst.io/info/space-quest-league-sql-challenge/) where I also have video demos on how to solve these challenges using either Starburst Galaxy or Trino. 
