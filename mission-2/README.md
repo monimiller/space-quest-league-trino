@@ -1,6 +1,6 @@
-# Space Quest League Challenges with Trino 
+# Space Quest League Challenges with Trino
 
-Welcome to the [Trino](https://trino.io/) getting started tutorial repository - *Space Quest League* edition! 
+Welcome to the [Trino](https://trino.io/) getting started tutorial repository - *Space Quest League* edition!
 
 We challenge you to the [Space Quest League Technical Challenge Event](https://www.starburst.io/info/space-quest-league-sql-challenge/), where for five
 weeks we will dive into some SQL challenges that can be completed using this repository!
