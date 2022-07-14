@@ -1,19 +1,9 @@
-# Running MySQL and configuring the MySQL Connector
-
-## Introduction 
-This tutorial will cover running the MySQL connector
-
-## Goals
-In this tutorial, you will:
- 1. Learn how to run a CTAS (CREATE TABLE AS) statement in Trino.
- 2. Run a query against the underlying system.
- 
-## Steps
+# Space Quest League Mission 3 Technical Achievement Challenge Instructions
 
 ### Running Services
 
-First, you want to start the services. Make sure that you are in the 
-`trino-getting-started/mysql/trino-mysql` directory. Now run the following
+First, you want to start the services. Make sure that you are in the
+`space-quest-league-trino/mission-3/mysql` directory. Now run the following
 command:
 
 ```
