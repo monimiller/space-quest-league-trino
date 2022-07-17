@@ -39,7 +39,7 @@ In order to use this repository you need to have
 [Docker](https://www.docker.com/why-docker) installed to run your service
 [containers](https://www.docker.com/why-docker). Check if you have Docker
 installed by running `docker --version`. If Docker isn't found, please refer to
-the [install insructions](https://docs.docker.com/engine/install/) and install
+the [install instructions](https://docs.docker.com/engine/install/) and install
 Docker before trying to run these tutorials. If you're on mac or windows, you
 will just need to install docker desktop. If you're on a linux distribution, you
 will just need to install the docker engine.
