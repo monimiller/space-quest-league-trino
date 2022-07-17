@@ -45,16 +45,8 @@ will just need to install docker desktop. If you're on a linux distribution, you
 will just need to install the docker engine.
 
 ## Getting Started
-The challenges will be available in the Mission 3 [Technical Achievement
-Challenges](https://github.com/monimiller/space-quest-league-trino/tree/main/Technical%20Achievement%20Challenges)
-folder.  Technical Achievement Challenge 1 is out now! Refer to the
-[space-quest-league-trino/trino-minio/README.md](https://github.com/monimiller/space-quest-league-trino/blob/main/trino-minio/README.md)
-for setup instructions.  More information about the program is available on the
-[Space Quest League
-Website](https://www.starburst.io/info/space-quest-league-sql-challenge/) where
-I also have video demos on how to solve these challenges using either Starburst
+I have created [video demos](https://www.starburst.io/info/technical-achievement-challenges/) on how to solve these challenges using either Starburst
 Galaxy or Trino.  Enter your answer in the [Space Quest League
 Sweepstakes](https://www.starburst.io/sweepstakes/) to win some prizes along the
 way!
 
-### FIX LINKS
