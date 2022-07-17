@@ -24,7 +24,7 @@ environment that is used to get new and existing users started on all the
 different containers we have, and more importantly learn and have fun with
 Trino.
 
-All the information for Mission 3 is contained within the `mysql` folder, so if
+All the information for Mission 3 is contained within the `trino-mysql` folder, so if
 you have docker installed, pop in there and we can get started.
 
 If you want to learn more about Trino, I highly suggest giving a visit to the
