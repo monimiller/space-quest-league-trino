@@ -1,4 +1,6 @@
 # Space Quest League Mission 3 Technical Achievement Challenge Instructions
+The technical achievement challenge sprint information can be found on the [website](https://www.starburst.io/info/technical-achievement-challenges/).
+
 
 ### Running Services
 
@@ -23,11 +25,18 @@ Creating trino-mysql-mysql-1             ... done
 Once this is complete, you can log into the Trino coordinator node. We will
 do this by using the [`exec`](https://docs.docker.com/engine/reference/commandline/exec/)
 command and run the `trino` CLI executable as the command we run on that
-container. Notice the container id is `trino-mysql-trino-coordinator-1` so the
+container. 
+
+Notice the container id is `trino-mysql-trino-coordinator-1` so the
 command you will run is:
 
 ```
 docker container exec -it trino-mysql_trino-coordinator_1 trino
+```
+If you get an error, run the following command to evaluate the containers that are currently running
+
+```
+docker ps
 ```
 
 When you start this step, you should see the `trino` cursor once the startup
